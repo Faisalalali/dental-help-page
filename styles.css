@@ -1,0 +1,63 @@
+body {
+  font-family: 'Tajawal', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("/images/background.jpeg");
+  background-repeat: repeat;
+}
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #F7F7F7;
+}
+
+.nav-link {
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007BFF;
+}
+
+.navbar-brand img {
+  width: 80px;
+  height: 80px;
+}
+
+.second-logo img {
+  width: 80px;
+  height: 80px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+}
+
+.btn-card {
+  margin-top: 15px;
+  background-color: #007BFF;
+  border-color: #007BFF;
+}
+
+.btn-card:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.navbar-brand.second-logo {
+  margin-left: auto;
+  /* This will push the second logo to the left */
+}
